@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.7
 
 ARG FLEXGET_VERSION=2.11.23
 RUN apk add --no-cache ca-certificates python2 py-pip && \
